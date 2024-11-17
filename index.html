@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card-component grid-flow">
+        <div class="card-component__img-wrapper">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt=""
+            class="card-component__img"
+          />
+        </div>
+          <h1 class="card-component__title">Equilibrium #3429</h1>
+          <p class="card-component__body">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="flex-flow flex-flow--border">
+            <div class="flex-flow">
+              <img
+                src="images/icon-ethereum.svg"
+                class="card-component__icon-ether"
+              />
+              <p class="card-component__ether">0.041 ETH</p>
+            </div>
+            <div class="flex-flow">
+              <img
+                src="images/icon-clock.svg"
+                class="card-component__icon-clock"
+              />
+              <p class="card-component__days">3 Days left </p>
+            </div>
+          </div>
+          <div class="flex-flow flex-flow--start">
+            <img
+              src="images/image-avatar.png"
+              class="card-component__icon-avatar"
+            />
+            <p class="card-component__author">Creation of <span>Jules Wyvern</span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
